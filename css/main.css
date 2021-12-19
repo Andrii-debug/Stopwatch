@@ -85,6 +85,7 @@ body {
 .stop {
   color: black;
   background-color: rgb(255, 115, 0);
+  cursor: pointer;
 }
 
 .start:hover,  
@@ -92,4 +93,71 @@ body {
 .stop:hover  {
   color:black;
   background-color: rgb(7, 85, 49);
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 670px){
+  .container {
+    width: 100%;
+  }
+
+  .timer__block {
+ 
+     width: 120px;
+     margin: 10px;
+  }
+
+  .time {
+    font-size: 3.5rem;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .button {
+    width: 100px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+
+  }
+
+  .timer__block {
+    height: 100px;
+    width: 90px;
+    margin: 3px;
+    
+ }
+
+ .time {
+   display: flex;
+   align-items: center;
+   font-size: 3rem;
+    height: 100px;
+}
+
+.button {
+  width: 100px;
+}
+
+.title {
+  font-size: 11px;
+}
+}
+
+
+@media screen and (min-width: 670px) and (max-width: 870px){
+  .container {
+    width: 100%;
+
+  }
+
+  .button {
+    width: 150px;
+  }
 }
